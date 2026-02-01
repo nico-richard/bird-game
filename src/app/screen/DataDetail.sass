@@ -1,0 +1,53 @@
+.data-to-click
+  &:hover
+    cursor: pointer
+    text-shadow: 2px 2px 5px white
+
+.bird-photos
+  display: grid
+  grid-template-columns: repeat(4, 1fr)
+  margin-top: 1rem
+  gap: 1rem
+  img
+    width: 100%
+    aspect-ratio: 1 / 1
+    object-fit: cover
+    border-radius: 5px
+    cursor: pointer
+
+.modal-backdrop
+  position: fixed
+  inset: 0
+  background: rgba(0, 0, 0, 0.6)
+  display: flex
+  align-items: center
+  justify-content: center
+  z-index: 1000
+
+.modal
+  background: #1e1e1e
+  padding: 2rem
+  border-radius: 12px
+  height: 90%
+  width: 90%
+  position: relative
+  color: white
+  animation: fadeIn 0.2s ease
+
+.close
+  position: absolute
+  top: 0.5rem
+  right: 0.75rem
+  background: none
+  border: none
+  color: white
+  font-size: 1.5rem
+  cursor: pointer
+
+@keyframes fadeIn
+  from
+    opacity: 0
+    transform: scale(0.95)
+  to
+    opacity: 1
+    transform: scale(1)

@@ -1,0 +1,32 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model Order {
+  id            Int     @id @default(autoincrement())
+  name          String  @unique
+  birds         Bird[]
+}
+
+model Bird {
+  id            Int       @id @default(autoincrement())
+  name          String    @unique
+  naturalist_id Int       @unique
+  category      String?
+  orderId       Int?
+  order         Order?    @relation(fields: [orderId], references: [id])
+  photos        Photo[]
+}
+
+model Photo {
+  id            Int     @id @default(autoincrement())
+  naturalist_id Int     @unique
+  url           String
+  birdId        Int
+  bird          Bird    @relation(fields: [birdId], references: [id])
+}

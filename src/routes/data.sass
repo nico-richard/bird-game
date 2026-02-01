@@ -1,0 +1,26 @@
+.summary
+  list-style-type: none
+  li
+    a
+      color: inherit
+
+.data
+  display: flex
+  flex-wrap: wrap
+  gap: 2rem
+  .data-to-click
+    &:hover
+      cursor: pointer
+      text-shadow: 2px 2px 5px white
+.gallery
+  display: grid
+  grid-template-columns: repeat(10, 1fr)
+  margin-top: 1rem
+  gap: 1rem
+  p
+    margin: 0
+  img
+    width: 100%
+    aspect-ratio: 1 / 1
+    object-fit: cover
+    border-radius: 5px

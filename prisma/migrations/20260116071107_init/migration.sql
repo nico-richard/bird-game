@@ -1,0 +1,14 @@
+-- CreateTable
+CREATE TABLE "Bird" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "name" TEXT
+);
+
+-- CreateTable
+CREATE TABLE "Photo" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "title" TEXT NOT NULL,
+    "url" TEXT NOT NULL,
+    "birdId" INTEGER NOT NULL,
+    CONSTRAINT "Photo_birdId_fkey" FOREIGN KEY ("birdId") REFERENCES "Bird" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
+);

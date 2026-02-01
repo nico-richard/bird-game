@@ -1,0 +1,3752 @@
+[
+  {
+    "type": "bird",
+    "name": "Bernache cravant",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bernache cravant du Pacifique",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bernache cravant à ventre sombre",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bernache cravant à ventre pâle",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bernache à cou roux",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bernache du Canada",
+    "order": "ANSERIFORMES",
+    "category": "C"
+  },
+  {
+    "type": "bird",
+    "name": "Bernache nonnette",
+    "order": "ANSERIFORMES",
+    "category": "AC"
+  },
+  {
+    "type": "bird",
+    "name": "Oie des neiges",
+    "order": "ANSERIFORMES",
+    "category": "BD"
+  },
+  {
+    "type": "bird",
+    "name": "Oie cendrée",
+    "order": "ANSERIFORMES",
+    "category": "AC"
+  },
+  {
+    "type": "bird",
+    "name": "Oie de la taïga",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Oie à bec court",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Oie de la toundra",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Oie rieuse",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Oie rieuse du Groenland",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Oie naine",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Cygne noir",
+    "order": "ANSERIFORMES",
+    "category": "C"
+  },
+  {
+    "type": "bird",
+    "name": "Cygne tuberculé",
+    "order": "ANSERIFORMES",
+    "category": "AC"
+  },
+  {
+    "type": "bird",
+    "name": "Cygne de Bewick",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Cygne chanteur",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Ouette d'Egypte",
+    "order": "ANSERIFORMES",
+    "category": "BC"
+  },
+  {
+    "type": "bird",
+    "name": "Tadorne de Belon",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Tadorne casarca",
+    "order": "ANSERIFORMES",
+    "category": "BC"
+  },
+  {
+    "type": "bird",
+    "name": "Canard mandarin",
+    "order": "ANSERIFORMES",
+    "category": "C"
+  },
+  {
+    "type": "bird",
+    "name": "Sarcelle élégante",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Sarcelle d'été",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Sarcelle à ailes bleues",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Canard souchet",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Canard chipeau",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Canard siffleur",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Canard à front blanc",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Canard colvert",
+    "order": "ANSERIFORMES",
+    "category": "AC"
+  },
+  {
+    "type": "bird",
+    "name": "Canard noir",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Canard pilet",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Sarcelle d'hiver",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Sarcelle à ailes vertes",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Sarcelle marbrée",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Nette rousse",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Fuligule milouin",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Fuligule nyroca",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Fuligule à bec cerclé",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Fuligule morillon",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Fuligule milouinan",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Fuligule à tête noire",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Eider de Steller",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Eider à tête grise",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Eider à duvet",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Macreuse à front blanc",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Macreuse brune",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Macreuse de Sibérie",
+    "order": "ANSERIFORMES",
+    "category": "B"
+  },
+  {
+    "type": "bird",
+    "name": "Macreuse noire",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Macreuse à bec jaune",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Harelde boréale",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Garrot albéole",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Garrot à oeil d'or",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Harle piette",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Harle bièvre",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Harle huppé",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Érismature rousse",
+    "order": "ANSERIFORMES",
+    "category": "C"
+  },
+  {
+    "type": "bird",
+    "name": "Érismature à tête blanche",
+    "order": "ANSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Colin de Californie",
+    "order": "GALLIFORMES",
+    "category": "C"
+  },
+  {
+    "type": "bird",
+    "name": "Gélinotte des bois",
+    "order": "GALLIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Lagopède alpin",
+    "order": "GALLIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grand Tétras",
+    "order": "GALLIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Tétras lyre",
+    "order": "GALLIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Perdrix grise",
+    "order": "GALLIFORMES",
+    "category": "AC"
+  },
+  {
+    "type": "bird",
+    "name": "Perdrix grise des Pyrénées",
+    "order": "GALLIFORMES",
+    "category": "AC"
+  },
+  {
+    "type": "bird",
+    "name": "Faisan vénéré",
+    "order": "GALLIFORMES",
+    "category": "C"
+  },
+  {
+    "type": "bird",
+    "name": "Faisan de Colchide",
+    "order": "GALLIFORMES",
+    "category": "C"
+  },
+  {
+    "type": "bird",
+    "name": "Caille des blés",
+    "order": "GALLIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Perdrix rouge",
+    "order": "GALLIFORMES",
+    "category": "AC"
+  },
+  {
+    "type": "bird",
+    "name": "Perdrix bartavelle",
+    "order": "GALLIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Engoulevent d'Amérique",
+    "order": "CAPRIMULGIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Engoulevent à collier roux",
+    "order": "CAPRIMULGIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Engoulevent d'Europe",
+    "order": "CAPRIMULGIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Martinet ramoneur",
+    "order": "APODIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Martinet à ventre blanc",
+    "order": "APODIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Martinet noir",
+    "order": "APODIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Martinet pâle",
+    "order": "APODIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Martinet des maisons",
+    "order": "APODIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Martinet cafre",
+    "order": "APODIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Outarde barbue",
+    "order": "OTIDIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Outarde de Macqueen",
+    "order": "OTIDIFORMES",
+    "category": "B"
+  },
+  {
+    "type": "bird",
+    "name": "Outarde canepetière",
+    "order": "OTIDIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Coucou-geai",
+    "order": "CUCULIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Coulicou à bec jaune",
+    "order": "CUCULIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Coulicou à bec noir",
+    "order": "CUCULIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Coucou gris",
+    "order": "CUCULIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Syrrhapte paradoxal",
+    "order": "PTEROCLIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Ganga cata",
+    "order": "PTEROCLIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pigeon biset",
+    "order": "COLUMBIFORMES",
+    "category": "AC"
+  },
+  {
+    "type": "bird",
+    "name": "Pigeon colombin",
+    "order": "COLUMBIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pigeon ramier",
+    "order": "COLUMBIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Tourterelle des bois",
+    "order": "COLUMBIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Tourterelle orientale",
+    "order": "COLUMBIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Tourterelle turque",
+    "order": "COLUMBIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Râle d'eau",
+    "order": "GRUIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Râle des genêts",
+    "order": "GRUIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Marouette de Caroline",
+    "order": "GRUIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Marouette ponctuée",
+    "order": "GRUIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Gallinule poule-d'eau",
+    "order": "GRUIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Foulque macroule",
+    "order": "GRUIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Foulque caronculée",
+    "order": "GRUIFORMES",
+    "category": "B"
+  },
+  {
+    "type": "bird",
+    "name": "Talève d'Allen",
+    "order": "GRUIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Talève sultane",
+    "order": "GRUIFORMES",
+    "category": "AC"
+  },
+  {
+    "type": "bird",
+    "name": "Marouette de Baillon",
+    "order": "GRUIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Marouette poussin",
+    "order": "GRUIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grue du Canada",
+    "order": "GRUIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grue demoiselle",
+    "order": "GRUIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grue cendrée",
+    "order": "GRUIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grèbe castagneux",
+    "order": "PODICIPEDIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grèbe à bec bigarré",
+    "order": "PODICIPEDIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grèbe jougris",
+    "order": "PODICIPEDIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grèbe huppé",
+    "order": "PODICIPEDIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grèbe esclavon",
+    "order": "PODICIPEDIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grèbe à cou noir",
+    "order": "PODICIPEDIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Flamant rose",
+    "order": "PHOENICOPTERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Flamant nain",
+    "order": "PHOENICOPTERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Œdicnème criard",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Huîtrier pie",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Échasse blanche",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Avocette élégante",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pluvier argenté",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pluvier doré",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pluvier fauve",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pluvier bronzé",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Guignard d'Eurasie",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Gravelot kildir",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grand Gravelot",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Petit Gravelot",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Vanneau huppé",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Vanneau sociable",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Vanneau à queue blanche",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Gravelot tibétain",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Gravelot de Leschenault",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Gravelot pâtre",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Gravelot à collier interrompu",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bartramie des champs",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Courlis corlieu",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Courlis hudsonien",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Courlis à bec grêle",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Courlis cendré",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Barge rousse",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Barge à queue noire",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bécassin à long bec",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bécassin à bec court",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bécassine sourde",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bécasse d'Amérique",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bécasse des bois",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bécassine double",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bécassine des marais",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bécassine de Wilson",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Phalarope de Wilson",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Phalarope à bec large",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Phalarope à bec étroit",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Chevalier bargette",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Chevalier guignette",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Chevalier grivelé",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Chevalier culblanc",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Chevalier solitaire",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Chevalier de Sibérie",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Chevalier stagnatile",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Chevalier sylvain",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Chevalier gambette",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Chevalier à pattes jaunes",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Chevalier semipalmé",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Chevalier arlequin",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Chevalier aboyeur",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Chevalier criard",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Tournepierre à collier",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bécasseau maubèche",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Combattant varié",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bécasseau falcinelle",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bécasseau à queue pointue",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bécasseau à échasses",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bécasseau cocorli",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bécasseau de Temminck",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bécasseau à longs doigts",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bécasseau à cou roux",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bécasseau rousset",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bécasseau sanderling",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bécasseau variable",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bécasseau violet",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bécasseau de Baird",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bécasseau minute",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bécasseau minuscule",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bécasseau de Bonaparte",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bécasseau tacheté",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bécasseau d'Alaska",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bécasseau semipalmé",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Courvite isabelle",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Glaréole orientale",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Glaréole à ailes noires",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Glaréole à collier",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Sterne fuligineuse",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Sterne bridée",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Sterne naine",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Sterne hansel",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Sterne caspienne",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Guifette moustac",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Guifette noire",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Guifette leucoptère",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Sterne de Forster",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Sterne arctique",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Sterne pierregarin",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Sterne de Dougall",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Sterne caugek",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Sterne élégante",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Sterne voyageuse",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Sterne royale",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Mouette pygmée",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Mouette de Ross",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Mouette tridactyle",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Mouette blanche",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Mouette de Sabine",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Goéland railleur",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Mouette de Bonaparte",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Mouette rieuse",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Mouette atricille",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Mouette de Franklin",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Goéland ichthyaète",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Goéland d'Audouin",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Mouette mélanocéphale",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Goéland cendré",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Goéland à bec cerclé",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Goéland pontique",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Goéland dominicain",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Goéland argenté",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Goéland de la Véga",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Goéland leucophée",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Goéland marin",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Goéland bourgmestre",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Goéland brun",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Goéland de la Baltique",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Goéland d'Amérique",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Goéland à ailes blanches",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Goéland de Kumlien",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Labbe à longue queue",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Labbe parasite",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Labbe pomarin",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grand Labbe",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Labbe de McCormick",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Macareux moine",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Guillemot à miroir",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pingouin torda",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Mergule nain",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Guillemot de Brünnich",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Guillemot de Troïl",
+    "order": "CHARADRIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Plongeon catmarin",
+    "order": "GAVIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Plongeon arctique",
+    "order": "GAVIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Plongeon imbrin",
+    "order": "GAVIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Plongeon à bec blanc",
+    "order": "GAVIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Océanite de Wilson",
+    "order": "PROCELLARIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Albatros à sourcils noirs",
+    "order": "PROCELLARIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Océanite tempête",
+    "order": "PROCELLARIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Océanite de Swinhoe",
+    "order": "PROCELLARIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Océanite culblanc",
+    "order": "PROCELLARIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Océanite de Castro",
+    "order": "PROCELLARIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Fulmar boréal",
+    "order": "PROCELLARIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Puffin cendré",
+    "order": "PROCELLARIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Puffin de Scopoli",
+    "order": "PROCELLARIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Puffin fuligineux",
+    "order": "PROCELLARIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Puffin à bec grêle",
+    "order": "PROCELLARIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Puffin majeur",
+    "order": "PROCELLARIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Puffin des Anglais",
+    "order": "PROCELLARIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Puffin yelkouan",
+    "order": "PROCELLARIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Puffin des Baléares",
+    "order": "PROCELLARIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Cigogne noire",
+    "order": "CICONIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Cigogne blanche",
+    "order": "CICONIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Frégate superbe",
+    "order": "SULIFORMES",
+    "category": "B"
+  },
+  {
+    "type": "bird",
+    "name": "Fou de Bassan",
+    "order": "SULIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Fou à pieds rouges",
+    "order": "SULIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Fou brun",
+    "order": "SULIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Fou masqué",
+    "order": "SULIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Cormoran pygmée",
+    "order": "SULIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grand Cormoran",
+    "order": "SULIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Cormoran huppé",
+    "order": "SULIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Cormoran de Desmarest",
+    "order": "SULIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Cormoran à aigrettes",
+    "order": "SULIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Ibis sacré",
+    "order": "PELECANIFORMES",
+    "category": "C"
+  },
+  {
+    "type": "bird",
+    "name": "Ibis falcinelle",
+    "order": "PELECANIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Spatule blanche",
+    "order": "PELECANIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Butor étoilé",
+    "order": "PELECANIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Blongios de Sturm",
+    "order": "PELECANIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Blongios nain",
+    "order": "PELECANIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bihoreau gris",
+    "order": "PELECANIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Aigrette garzette",
+    "order": "PELECANIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Aigrette des récifs",
+    "order": "PELECANIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Héron vert",
+    "order": "PELECANIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Crabier chevelu",
+    "order": "PELECANIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grande Aigrette",
+    "order": "PELECANIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Héron garde-boeufs",
+    "order": "PELECANIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Héron cendré",
+    "order": "PELECANIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grand Héron",
+    "order": "PELECANIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Héron pourpré",
+    "order": "PELECANIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Héron mélanocéphale",
+    "order": "PELECANIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pélican blanc",
+    "order": "PELECANIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pélican frisé",
+    "order": "PELECANIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Balbuzard pêcheur",
+    "order": "ACCIPITRIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Élanion blanc",
+    "order": "ACCIPITRIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Gypaète barbu",
+    "order": "ACCIPITRIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Vautour percnoptère",
+    "order": "ACCIPITRIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bondrée apivore",
+    "order": "ACCIPITRIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Vautour de Rüppell",
+    "order": "ACCIPITRIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Vautour fauve",
+    "order": "ACCIPITRIFORMES",
+    "category": "AC"
+  },
+  {
+    "type": "bird",
+    "name": "Vautour moine",
+    "order": "ACCIPITRIFORMES",
+    "category": "AC"
+  },
+  {
+    "type": "bird",
+    "name": "Vautour oricou",
+    "order": "ACCIPITRIFORMES",
+    "category": "B"
+  },
+  {
+    "type": "bird",
+    "name": "Circaète Jean-le-blanc",
+    "order": "ACCIPITRIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Aigle pomarin",
+    "order": "ACCIPITRIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Aigle criard",
+    "order": "ACCIPITRIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Aigle botté",
+    "order": "ACCIPITRIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Aigle des steppes",
+    "order": "ACCIPITRIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Aigle ibérique",
+    "order": "ACCIPITRIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Aigle impérial",
+    "order": "ACCIPITRIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Aigle royal",
+    "order": "ACCIPITRIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Aigle de Bonelli",
+    "order": "ACCIPITRIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Épervier d'Europe",
+    "order": "ACCIPITRIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Autour des palombes",
+    "order": "ACCIPITRIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Busard des roseaux",
+    "order": "ACCIPITRIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Busard Saint-Martin",
+    "order": "ACCIPITRIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Busard d'Amérique",
+    "order": "ACCIPITRIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Busard pâle",
+    "order": "ACCIPITRIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Busard cendré",
+    "order": "ACCIPITRIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Milan royal",
+    "order": "ACCIPITRIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Milan noir",
+    "order": "ACCIPITRIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pygargue à queue blanche",
+    "order": "ACCIPITRIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Buse pattue",
+    "order": "ACCIPITRIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Buse féroce",
+    "order": "ACCIPITRIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Buse variable",
+    "order": "ACCIPITRIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Buse des steppes",
+    "order": "ACCIPITRIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Effraie des clochers",
+    "order": "STRIGIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Chouette de Tengmalm",
+    "order": "STRIGIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Chevêche d'Athéna",
+    "order": "STRIGIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Chouette épervière",
+    "order": "STRIGIFORMES",
+    "category": "B"
+  },
+  {
+    "type": "bird",
+    "name": "Chevêchette d'Europe",
+    "order": "STRIGIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Petit-duc scops",
+    "order": "STRIGIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Hibou moyen-duc",
+    "order": "STRIGIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Hibou des marais",
+    "order": "STRIGIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Harfang des neiges",
+    "order": "STRIGIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grand-duc d'Europe",
+    "order": "STRIGIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Chouette hulotte",
+    "order": "STRIGIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Huppe fasciée",
+    "order": "BUCEROTIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Rollier d'Europe",
+    "order": "CORACIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Martin-pêcheur d'Europe",
+    "order": "CORACIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Guêpier de Perse",
+    "order": "CORACIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Guêpier d'Europe",
+    "order": "CORACIIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Torcol fourmilier",
+    "order": "PICIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pic tridactyle",
+    "order": "PICIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pic mar",
+    "order": "PICIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pic épeichette",
+    "order": "PICIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pic épeiche",
+    "order": "PICIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pic à dos blanc",
+    "order": "PICIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pic noir",
+    "order": "PICIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pic vert",
+    "order": "PICIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pic de Sharpe",
+    "order": "PICIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pic cendré",
+    "order": "PICIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Faucon crécerellette",
+    "order": "FALCONIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Faucon crécerelle",
+    "order": "FALCONIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Faucon kobez",
+    "order": "FALCONIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Faucon d'Éléonore",
+    "order": "FALCONIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Faucon concolore",
+    "order": "FALCONIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Faucon émerillon",
+    "order": "FALCONIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Faucon hobereau",
+    "order": "FALCONIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Faucon lanier",
+    "order": "FALCONIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Faucon sacre",
+    "order": "FALCONIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Faucon gerfaut",
+    "order": "FALCONIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Faucon pèlerin",
+    "order": "FALCONIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Perruche à collier",
+    "order": "PSITTACIFORMES",
+    "category": "C"
+  },
+  {
+    "type": "bird",
+    "name": "Viréo à oeil rouge",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Loriot d'Europe",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pie-grièche grise",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pie-grièche des steppes",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pie-grièche méridionale",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pie-grièche masquée",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pie-grièche à poitrine rose",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pie-grièche à tête rousse",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pie-grièche isabelle",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pie-grièche écorcheur",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pie-grièche du Turkestan",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pie-grièche brune",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Geai des chênes",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pie bavarde",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Cassenoix moucheté",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Crave à bec rouge",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Chocard à bec jaune",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Choucas des tours",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Choucas des tours oriental",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Choucas de Daourie",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Corbeau freux",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Corneille noire",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Corneille mantelée",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Corneille de Corse",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grand Corbeau",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Jaseur boréal",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Mésange noire",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Mésange huppée",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Mésange nonnette",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Mésange boréale",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Mésange alpestre",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Mésange des saules",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Mésange bleue",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Mésange azurée",
+    "order": "PASSERIFORMES",
+    "category": "B"
+  },
+  {
+    "type": "bird",
+    "name": "Mésange charbonnière",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Rémiz penduline",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Panure à moustaches",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Ammomane élégante",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Alouette lulu",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Alouette des champs",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Cochevis de Thékla",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Cochevis huppé",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Alouette haussecol",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Alouette calandrelle",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Alouette monticole",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Alouette calandre",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Sirli de Dupont",
+    "order": "PASSERIFORMES",
+    "category": "B"
+  },
+  {
+    "type": "bird",
+    "name": "Hirondelle paludicole",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Hirondelle de rivage",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Hirondelle de rochers",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Hirondelle rustique",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Hirondelle de fenêtre",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Hirondelle rousseline",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Hirondelle à front blanc",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bouscarle de Cetti",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Orite à longue queue",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pouillot siffleur",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pouillot de Bonelli",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pouillot oriental",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pouillot de Hume",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pouillot à grands sourcils",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pouillot de Pallas",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pouillot de Schwarz",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pouillot brun",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pouillot fitis",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pouillot véloce",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pouillot de Sibérie",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pouillot ibérique",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pouillot de Temminck",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pouillot à pattes sombres",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pouillot verdâtre",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pouillot boréal",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Rousserolle turdoïde",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Lusciniole à moustaches",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Phragmite aquatique",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Phragmite des joncs",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Rousserolle isabelle",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Rousserolle des buissons",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Rousserolle effarvatte",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Rousserolle verderolle",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Hypolaïs bottée",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Hypolaïs rama",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Hypolaïs pâle",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Hypolaïs obscure",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Hypolaïs polyglotte",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Hypolaïs ictérine",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Locustelle fasciée",
+    "order": "PASSERIFORMES",
+    "category": "B"
+  },
+  {
+    "type": "bird",
+    "name": "Locustelle de Pallas",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Locustelle lancéolée",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Locustelle fluviatile",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Locustelle luscinioïde",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Locustelle tachetée",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Cisticole des joncs",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Fauvette à tête noire",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Fauvette des jardins",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Fauvette épervière",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Fauvette babillarde",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Fauvette orphée",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Fauvette naine",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Fauvette de l'Atlas",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Fauvette de Rüppell",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Fauvette mélanocéphale",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Fauvette passerinette",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Fauvette de Moltoni",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Fauvette des Balkans",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Fauvette grisette",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Fauvette à lunettes",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Fauvette sarde",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Fauvette pitchou",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Léiothrix jaune",
+    "order": "PASSERIFORMES",
+    "category": "C"
+  },
+  {
+    "type": "bird",
+    "name": "Roitelet à triple bandeau",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Roitelet huppé",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Troglodyte mignon",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Sittelle corse",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Sittelle torchepot",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Tichodrome échelette",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grimpereau des bois",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grimpereau des jardins",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Étourneau roselin",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Étourneau sansonnet",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Étourneau unicolore",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grive à dos olive",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grive à joues grises",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grive dorée",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grive de Sibérie",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grive musicienne",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grive draine",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grive mauvis",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Merle noir",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grive obscure",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grive litorne",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Merle à plastron",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grive à gorge noire",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grive à gorge rousse",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grive à ailes rousses",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grive de Naumann",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Agrobate roux",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Gobemouche gris",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Gobemouche tyrrhénien",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Rougegorge familier",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Rossignol progné",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Rossignol philomèle",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Gorgebleue à miroir",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Gorgebleue à miroir roux",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Gorgebleue de Nantes",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Gorgebleue à miroir blanc",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Gobemouche nain",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Gobemouche à demi-collier",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Gobemouche noir",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Gobemouche à collier",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Robin à flancs roux",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Rougequeue noir",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Rougequeue à front blanc",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Rougequeue de Moussier",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Monticole de roche",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Monticole bleu",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Tarier des prés",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Tarier de Sibérie",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Tarier de la Caspienne",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Tarier pâtre",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Traquet motteux",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Traquet de Seebohm",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Traquet isabelle",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Traquet du désert",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Traquet oreillard",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Traquet pie",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Traquet noir et blanc",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Traquet kurde",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Traquet à tête blanche",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Traquet rieur",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Cincle plongeur",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Moineau soulcie",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Niverolle alpine",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Moineau friquet",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Moineau espagnol",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Moineau cisalpin",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Moineau domestique",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Capucin bec-de-plomb",
+    "order": "PASSERIFORMES",
+    "category": "C"
+  },
+  {
+    "type": "bird",
+    "name": "Accenteur alpin",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Accenteur à gorge noire",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Accenteur mouchet",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bergeronnette printanière",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bergeronnette flavéole",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bergeronnette ibérique",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bergeronnette d'Italie",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bergeronnette des Balkans",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bergeronnette nordique",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bergeronnette orientale",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bergeronnette citrine",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bergeronnette des ruisseaux",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bergeronnette grise",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bergeronnette de Yarrell",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pipit de Richard",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pipit de Godlewski",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pipit rousseline",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pipit farlouse",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pipit des arbres",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pipit à dos olive",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pipit de la Petchora",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pipit à gorge rousse",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pipit de Sibérie",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pipit farlousane",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pipit spioncelle",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pipit maritime",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pinson des arbres",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Pinson du Nord",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Grosbec casse-noyaux",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Durbec des sapins",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bouvreuil pivoine",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Roselin githagine",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Roselin cramoisi",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Verdier d'Europe",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Linotte à bec jaune",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Linotte mélodieuse",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Sizerin flammé",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Sizerin cabaret",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bec-croisé perroquet",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bec-croisé des sapins",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bec-croisé bifascié",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Chardonneret élégant",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Venturon montagnard",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Venturon corse",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Serin cini",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Tarin des aulnes",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bruant lapon",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bruant des neiges",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bruant proyer",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bruant jaune",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bruant à calotte blanche",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bruant fou",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bruant ortolan",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bruant cendrillard",
+    "order": "PASSERIFORMES",
+    "category": "B"
+  },
+  {
+    "type": "bird",
+    "name": "Bruant zizi",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bruant nain",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bruant à sourcils jaunes",
+    "order": "PASSERIFORMES",
+    "category": "B"
+  },
+  {
+    "type": "bird",
+    "name": "Bruant rustique",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bruant auréole",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bruant roux",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bruant mélanocéphale",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bruant à tête rousse",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bruant masqué",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bruant des roseaux",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bruant à couronne blanche",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Bruant à gorge blanche",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Goglu des prés",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Oriole de Baltimore",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Vacher à tête brune",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Paruline couronnée",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Paruline des ruisseaux",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Paruline noir et blanc",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Paruline flamboyante",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Paruline à collier",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Paruline à gorge orangée",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Paruline jaune",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Paruline à flancs marron",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Paruline rayée",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Tangara écarlate",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  },
+  {
+    "type": "bird",
+    "name": "Cardinal à poitrine rose",
+    "order": "PASSERIFORMES",
+    "category": "A"
+  }
+]

@@ -1,0 +1,26 @@
+.question-card
+  background-color: #333
+  border-radius: 5px
+  padding: 1rem 3rem
+  margin: 1rem
+
+  .answers
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+
+    p
+      transition: all 0.2s ease-in-out
+      border: 3px solid #444
+      padding: 1rem
+      border-radius: 1rem
+      background-color: #222
+
+      &:hover
+        cursor: pointer
+        background-color: #333
+        border-color: #222
+      &:active
+        transition: none
+        outline: none
+        background-color: #444
