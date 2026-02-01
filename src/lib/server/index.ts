@@ -1,4 +1,4 @@
-import { birds } from "~/app/data/birds/birds.data";
+import { birds } from "~/lib/data/birds/birds.data";
 import { prisma } from "~/db/prisma";
 import { autocompleteName, fetchBirdData } from "~/lib/client/api";
 import { BirdWithOrdersAndPhotos, PhotoWithBird } from "~/lib/shared/types";

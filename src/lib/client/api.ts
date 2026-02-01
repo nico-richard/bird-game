@@ -1,7 +1,7 @@
 import {
   INaturalistTaxon,
   INaturalistTaxonData,
-} from "~/app/data/birds/birds.data";
+} from "~/lib/data/birds/birds.data";
 
 export const autocompleteName: (
   name: string,
