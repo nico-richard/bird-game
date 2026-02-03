@@ -1,12 +1,8 @@
 import { createMemo, createResource, createSignal, For } from "solid-js";
 import "./data.sass";
 import { BirdWithOrdersAndPhotos, PhotoWithBird } from "~/lib/shared/types";
-import DataDetail from "~/app/screen/DataDetail";
+import DataDetail from "~/component/DataDetail";
 import { BirdModel } from "../../generated/prisma/models/Bird";
-
-export const [selectedTaxonId, setSelectedTaxonId] = createSignal<
-  number | null
->(null);
 
 export default function Data() {
   const getAllPhotos: () => Promise<PhotoWithBird[]> = async () => {
@@ -21,6 +17,10 @@ export default function Data() {
     const res = await fetch("http://localhost:3000/api/birds");
     return res.json();
   };
+
+  const [selectedTaxonId, setSelectedTaxonId] = createSignal<number | null>(
+    null,
+  );
 
   const [photos] = createResource(getAllPhotos);
   const [photoCount] = createResource(getPhotoCount);
@@ -58,7 +58,9 @@ export default function Data() {
               {birds.map((bird) => (
                 <div
                   class="data-to-click"
-                  onClick={() => setSelectedTaxonId(bird.id)}
+                  onClick={() => {
+                    setSelectedTaxonId(bird.id);
+                  }}
                 >
                   {bird.name}
                 </div>
@@ -66,7 +68,12 @@ export default function Data() {
             </div>
           ))}
       </div>
-      {selectedTaxonId() && <DataDetail />}
+      {selectedTaxonId() && (
+        <DataDetail
+          setSelectedTaxonId={setSelectedTaxonId}
+          selectedTaxonId={selectedTaxonId()}
+        />
+      )}
       <h2 id="photos">Photos ({photoCount()})</h2>
       <div class="gallery">
         <For each={photos()}>

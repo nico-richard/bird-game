@@ -1,4 +1,4 @@
-import Button from "~/app/component/Button";
+import Button from "~/component/Button";
 import "./index.sass";
 import { useNavigate } from "@solidjs/router";
 

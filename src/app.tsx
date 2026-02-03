@@ -2,9 +2,9 @@ import { Router } from "@solidjs/router";
 import { FileRoutes } from "@solidjs/start/router";
 import { Suspense } from "solid-js";
 import "./app.sass";
-import "../src/app/component/Navbar.sass";
-import "../src/app/component/Button.sass";
-import Navbar from "~/app/component/Navbar";
+import "~/component/Navbar.sass";
+import "~/component/Button.sass";
+import Navbar from "~/component/Navbar";
 
 export default function App() {
   return (

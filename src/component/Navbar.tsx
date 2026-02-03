@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "~/app/component/Button";
+import Button from "~/component/Button";
 import { useNavigate } from "@solidjs/router";
 
 const Navbar = () => {

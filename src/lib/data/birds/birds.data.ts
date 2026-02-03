@@ -1,4 +1,4 @@
-// import birdsJson from "./birds.json";
+import birdsJson from "./birds.json";
 
 export type DataType = "bird" | "mountain";
 export interface DataModel<T extends DataType> {
@@ -8,7 +8,7 @@ export interface DataModel<T extends DataType> {
   category: string;
 }
 
-// export const birds: DataModel<"bird">[] = birdsJson as DataModel<"bird">[];
+export const birds: DataModel<"bird">[] = birdsJson as DataModel<"bird">[];
 
 export interface INaturalistTaxon {
   id: number;

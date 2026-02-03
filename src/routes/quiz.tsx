@@ -1,12 +1,28 @@
 import { createResource, createSignal } from "solid-js";
 import { PhotoWithBird } from "~/lib/shared/types";
 import "./quiz.sass";
-import Button from "~/app/component/Button";
-import ImageShow from "~/app/component/ImageShow";
+import Button from "~/component/Button";
+import ImageShow from "~/component/ImageShow";
+import { OrderModel } from "../../generated/prisma/models/Order";
+import OrderList from "~/component/OrderList";
+
+export interface QuizConfig {
+  orders: OrderModel[];
+}
 
 export default function Quiz() {
-  const getRandomPhoto: () => Promise<PhotoWithBird> = async () => {
-    const res = await fetch("http://localhost:3000/api/photo/random");
+  const getRandomPhotoForOrders: (
+    orders: OrderModel[],
+  ) => Promise<PhotoWithBird> = async (orders: OrderModel[]) => {
+    const orderIds = orders.map((order) => order.id).join(",");
+    const res = await fetch(
+      `http://localhost:3000/api/photo/random?orders=${orderIds}`,
+    );
+    return res.json();
+  };
+
+  const getOrders: () => Promise<OrderModel[]> = async () => {
+    const res = await fetch("http://localhost:3000/api/orders");
     return res.json();
   };
 
@@ -34,38 +50,51 @@ export default function Quiz() {
     }
   };
 
-  const [count, setCount] = createSignal(1);
-  const [show, setShow] = createSignal(false);
-  const [photo, { refetch }] = createResource(getRandomPhoto);
+  const [count, setCount] = createSignal<number>(1);
+  const [config, setConfig] = createSignal<QuizConfig | null>(null);
+  const [show, setShow] = createSignal<boolean>(false);
+
+  const [photo, { refetch }] = createResource(
+    () => config()?.orders ?? null,
+    getRandomPhotoForOrders,
+  );
+  const [orders] = createResource<OrderModel[]>(getOrders);
   return (
-    <div class="quiz">
-      <Button onClick={() => setCount(1)} color="grey">
-        {count()} [Réinitialiser]
-      </Button>
-      <Button
-        onClick={() => {
-          refetch();
-          setShow(false);
-          setCount(count() + 1);
-        }}
-      >
-        Suivant
-      </Button>
-      <Button onClick={() => setShow(!show())} color="#606c38">
-        {show() ? "Cacher" : "Afficher"}
-      </Button>
-      <ImageShow photo={photo()} />
-      {
-        <h3
-          class="bird-name"
-          style={{ filter: show() ? "none" : "blur(10px)" }}
-        >
-          {photo()?.bird.name}
-        </h3>
-      }
-      <Button hidden={true} onClick={deletePhoto} color="darkred">
-        Supprimer
-      </Button>
-    </div>
+    <>
+      <OrderList orders={orders()} setConfig={setConfig} config={config()} />
+      <hr />
+      {config()?.orders.length > 0 && (
+        <div class="quiz">
+          <Button onClick={() => setCount(1)} color="grey">
+            {count()} [Réinitialiser]
+          </Button>
+          <Button
+            onClick={() => {
+              if (!show()) {
+                setShow(true);
+              } else {
+                refetch();
+                setShow(false);
+              }
+              setCount(count() + 1);
+            }}
+          >
+            {show() ? "Suivant" : "Afficher"}
+          </Button>
+          <ImageShow photo={photo()} />
+          {
+            <h3
+              class="bird-name"
+              style={{ filter: show() ? "none" : "blur(20px)" }}
+            >
+              {photo()?.bird.name}
+            </h3>
+          }
+          <Button hidden={true} onClick={deletePhoto} color="darkred">
+            Supprimer
+          </Button>
+        </div>
+      )}
+    </>
   );
 }

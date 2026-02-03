@@ -3,6 +3,7 @@ import { prisma } from "~/db/prisma";
 import { autocompleteName, fetchBirdData } from "~/lib/client/api";
 import { BirdWithOrdersAndPhotos, PhotoWithBird } from "~/lib/shared/types";
 import { PhotoModel } from "../../../generated/prisma/models/Photo";
+import { OrderModel } from "../../../generated/prisma/models/Order";
 
 export const getAllBirds: () => Promise<
   BirdWithOrdersAndPhotos[]
@@ -45,15 +46,24 @@ export const countPhotos: () => Promise<number> = async () => {
   return prisma.photo.count();
 };
 
-export const randomPhoto: () => Promise<PhotoWithBird | null> = async () => {
+export const randomPhotoForOrders = async (
+  orderIds: number[],
+): Promise<PhotoWithBird | null> => {
   "use server";
-
   const ids = await prisma.photo.findMany({
+    where: orderIds.length
+      ? {
+          bird: {
+            orderId: { in: orderIds },
+          },
+        }
+      : undefined,
     select: { id: true },
   });
+
   if (!ids.length) return null;
-  const randomIndex = Math.floor(Math.random() * ids.length);
-  const randomId = ids[randomIndex].id;
+
+  const randomId = ids[Math.floor(Math.random() * ids.length)].id;
 
   return prisma.photo.findUnique({
     where: { id: randomId },
@@ -92,6 +102,11 @@ export const getAllPhotos: () => Promise<PhotoWithBird[]> = async () => {
       bird: true,
     },
   });
+};
+
+export const getAllOrders: () => Promise<OrderModel[]> = async () => {
+  "use server";
+  return prisma.order.findMany();
 };
 
 export const addAllBirds = async () => {

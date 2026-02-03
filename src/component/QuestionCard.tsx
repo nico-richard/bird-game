@@ -13,7 +13,7 @@ const QuestionCard: Component<QuestionCardProps> = (props) => {
       <h3>Question {props.index + 1}</h3>
       <p>{props.question}</p>
       <div class="answers">
-        {props.answers.map((answer: string, index: number) => (
+        {props.answers.map((answer: string) => (
           <p>{answer}</p>
         ))}
       </div>
