@@ -1,6 +1,5 @@
-import { birds } from "~/lib/data/birds/birds.data";
+//import { birds } from "~/lib/data/birds/birds.data";
 import { prisma } from "~/db/prisma";
-import { autocompleteName, fetchBirdData } from "~/lib/client/api";
 import { BirdWithOrdersAndPhotos, PhotoWithBird } from "~/lib/shared/types";
 import { PhotoModel } from "../../../generated/prisma/models/Photo";
 import { OrderModel } from "../../../generated/prisma/models/Order";
@@ -71,28 +70,28 @@ export const randomPhotoForOrders = async (
   });
 };
 
-export const fillAllBirdsWithData = async () => {
-  "use server";
-  for (let bird of birds) {
-    const order = await prisma.order.upsert({
-      where: { name: bird.order },
-      update: {},
-      create: { name: bird.order },
-    });
-    const foundBird = await prisma.bird.findFirst({
-      where: { name: { contains: bird.name } },
-    });
-    if (!foundBird) {
-      console.log("no bird found for name : " + bird.name);
-      continue;
-    }
-    await prisma.bird.update({
-      where: { name: foundBird.name },
-      data: { category: bird.category, orderId: order.id },
-    });
-  }
-  return "done";
-};
+// export const fillAllBirdsWithData = async () => {
+//   "use server";
+//   for (let bird of birds) {
+//     const order = await prisma.order.upsert({
+//       where: { name: bird.order },
+//       update: {},
+//       create: { name: bird.order },
+//     });
+//     const foundBird = await prisma.bird.findFirst({
+//       where: { name: { contains: bird.name } },
+//     });
+//     if (!foundBird) {
+//       console.log("no bird found for name : " + bird.name);
+//       continue;
+//     }
+//     await prisma.bird.update({
+//       where: { name: foundBird.name },
+//       data: { category: bird.category, orderId: order.id },
+//     });
+//   }
+//   return "done";
+// };
 
 export const getAllPhotos: () => Promise<PhotoWithBird[]> = async () => {
   "use server";
@@ -109,48 +108,48 @@ export const getAllOrders: () => Promise<OrderModel[]> = async () => {
   return prisma.order.findMany();
 };
 
-export const addAllBirds = async () => {
-  "use server";
-  for (let bird of birds) {
-    await autocompleteName(bird.name);
-    await prisma.bird.create({
-      data: { name: bird.name, naturalist_id: 13 },
-    });
-  }
-};
-
-export const addOnePhoto = async () => {
-  "use server";
-  for (let bird of birds) {
-    const existing = await prisma.bird.findUnique({
-      where: { name: bird.name },
-    });
-    if (existing?.id) {
-      continue;
-    }
-    try {
-      const foundBird = await autocompleteName(bird.name);
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-      const newBird = await prisma.bird.upsert({
-        where: { naturalist_id: foundBird.id },
-        update: {},
-        create: { name: foundBird.matched_term, naturalist_id: foundBird.id },
-      });
-      const birdData = await fetchBirdData(foundBird.id);
-      for (let taxonPhoto of birdData.taxon_photos) {
-        await prisma.photo.upsert({
-          where: { naturalist_id: taxonPhoto.photo.id },
-          update: {},
-          create: {
-            naturalist_id: taxonPhoto.photo.id,
-            url: taxonPhoto.photo.medium_url,
-            birdId: newBird.id,
-          },
-        });
-      }
-    } catch (e) {
-      console.error(e);
-    }
-  }
-  return "done";
-};
+// export const addAllBirds = async () => {
+//   "use server";
+//   for (let bird of birds) {
+//     await autocompleteName(bird.name);
+//     await prisma.bird.create({
+//       data: { name: bird.name, naturalist_id: 13 },
+//     });
+//   }
+// };
+//
+// export const addOnePhoto = async () => {
+//   "use server";
+//   for (let bird of birds) {
+//     const existing = await prisma.bird.findUnique({
+//       where: { name: bird.name },
+//     });
+//     if (existing?.id) {
+//       continue;
+//     }
+//     try {
+//       const foundBird = await autocompleteName(bird.name);
+//       await new Promise((resolve) => setTimeout(resolve, 1000));
+//       const newBird = await prisma.bird.upsert({
+//         where: { naturalist_id: foundBird.id },
+//         update: {},
+//         create: { name: foundBird.matched_term, naturalist_id: foundBird.id },
+//       });
+//       const birdData = await fetchBirdData(foundBird.id);
+//       for (let taxonPhoto of birdData.taxon_photos) {
+//         await prisma.photo.upsert({
+//           where: { naturalist_id: taxonPhoto.photo.id },
+//           update: {},
+//           create: {
+//             naturalist_id: taxonPhoto.photo.id,
+//             url: taxonPhoto.photo.medium_url,
+//             birdId: newBird.id,
+//           },
+//         });
+//       }
+//     } catch (e) {
+//       console.error(e);
+//     }
+//   }
+//   return "done";
+// };
