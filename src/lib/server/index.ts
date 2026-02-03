@@ -1,5 +1,5 @@
 //import { birds } from "~/lib/data/birds/birds.data";
-import { prisma } from "~/db/prisma";
+import { prisma } from "~/prisma/prisma";
 import { BirdWithOrdersAndPhotos, PhotoWithBird } from "~/lib/shared/types";
 import { PhotoModel } from "../../../generated/prisma/models/Photo";
 import { OrderModel } from "../../../generated/prisma/models/Order";

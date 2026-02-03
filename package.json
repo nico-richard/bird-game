@@ -4,16 +4,17 @@
   "scripts": {
     "dev": "vinxi dev",
     "build": "vinxi build",
-    "start": "vinxi start"
+    "start": "vinxi start",
+    "postinstall": "prisma generate"
   },
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.13",
     "@types/node": "^24.10.9",
     "@types/pg": "^8.16.0",
-    "prisma": "^7.2.0",
     "sass-embedded": "^1.97.2"
   },
   "dependencies": {
+    "prisma": "^7.2.0",
     "@prisma/adapter-better-sqlite3": "^7.2.0",
     "@prisma/client": "^7.2.0",
     "@solidjs/router": "^0.15.0",
