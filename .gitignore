@@ -28,3 +28,6 @@ gitignore
 Thumbs.db
 
 /generated/prisma
+
+.vercel
+.env*.local
