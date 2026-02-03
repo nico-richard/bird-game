@@ -11,7 +11,7 @@ interface DataDetailsProps {
 const DataDetail = (props: DataDetailsProps) => {
   const fetchPhotosForBirds: () => Promise<PhotoWithBird[]> = async () => {
     console.log(props.selectedTaxonId);
-    const res = await fetch(`api/photo/${props.selectedTaxonId}`);
+    const res = await fetch(`/api/photo/${props.selectedTaxonId}`);
     return res.json();
   };
   const [photosForBird] = createResource(fetchPhotosForBirds);

@@ -15,14 +15,12 @@ export default function Quiz() {
     orders: OrderModel[],
   ) => Promise<PhotoWithBird> = async (orders: OrderModel[]) => {
     const orderIds = orders.map((order) => order.id).join(",");
-    const res = await fetch(
-      `http://localhost:3000/api/photo/random?orders=${orderIds}`,
-    );
+    const res = await fetch(`/api/photo/random?orders=${orderIds}`);
     return res.json();
   };
 
   const getOrders: () => Promise<OrderModel[]> = async () => {
-    const res = await fetch("http://localhost:3000/api/orders");
+    const res = await fetch("/api/orders");
     return res.json();
   };
 
@@ -34,12 +32,9 @@ export default function Quiz() {
     if (!confirmDelete) return;
 
     try {
-      const res = await fetch(
-        `http://localhost:3000/api/photo/${photo()?.id}`,
-        {
-          method: "DELETE",
-        },
-      );
+      const res = await fetch(`/api/photo/${photo()?.id}`, {
+        method: "DELETE",
+      });
       if (!res.ok) throw new Error("Échec de la suppression");
       alert("Photo supprimée !");
       refetch();

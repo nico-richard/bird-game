@@ -2,19 +2,19 @@ import { createMemo, createResource, createSignal, For } from "solid-js";
 import "./data.sass";
 import { BirdWithOrdersAndPhotos, PhotoWithBird } from "~/lib/shared/types";
 import DataDetail from "~/component/DataDetail";
-import { BirdModel } from "../../generated/prisma/models/Bird";
+import { BirdModel } from "~/prisma/generated/prisma/models/Bird";
 
 export default function Data() {
   const getAllPhotos: () => Promise<PhotoWithBird[]> = async () => {
-    const res = await fetch("http://localhost:3000/api/photos");
+    const res = await fetch("/api/photos");
     return res.json();
   };
   const getPhotoCount: () => Promise<number> = async () => {
-    const res = await fetch("http://localhost:3000/api/photo/count");
+    const res = await fetch("/api/photo/count");
     return res.json();
   };
   const fetchAllBirds: () => Promise<BirdWithOrdersAndPhotos[]> = async () => {
-    const res = await fetch("http://localhost:3000/api/birds");
+    const res = await fetch("/api/birds");
     return res.json();
   };
 
