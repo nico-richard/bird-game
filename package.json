@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "vinxi dev",
     "build": "vinxi build",
-    "start": "vinxi start"
+    "start": "vinxi start",
+    "postinstall": "prisma generate"
   },
   "devDependencies": {
     "@types/node": "^24.10.9",
