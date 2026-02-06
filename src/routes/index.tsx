@@ -6,7 +6,10 @@ export default function Home() {
   const navigate = useNavigate();
   return (
     <div class="home">
-      <h1>Multi quiz</h1>
+      <div class="home-photo">
+        <img src="/mesange.png" alt="" />
+      </div>
+      <h1>Quiz des oiseaux</h1>
       <Button onClick={() => navigate("/quiz")}>Démarrer</Button>
     </div>
   );

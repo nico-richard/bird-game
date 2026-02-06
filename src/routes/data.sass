@@ -1,13 +1,18 @@
+@use "../breakpoints"
+
 .summary
   list-style-type: none
   li
     a
       color: inherit
 
-.data
+.bird-list
   display: flex
   flex-wrap: wrap
   gap: 2rem
+  @media (max-width: var(--media-sm))
+    flex-direction: column
+    margin-left: 1rem
   .data-to-click
     &:hover
       cursor: pointer
@@ -17,6 +22,15 @@
   grid-template-columns: repeat(10, 1fr)
   margin-top: 1rem
   gap: 1rem
+  width: 100%
+  @media (max-width: breakpoints.$xl)
+    grid-template-columns: repeat(8, 1fr)
+  @media (max-width: breakpoints.$lg)
+    grid-template-columns: repeat(6, 1fr)
+  @media (max-width: breakpoints.$md)
+    grid-template-columns: repeat(4, 1fr)
+  @media (max-width: breakpoints.$sm)
+    grid-template-columns: repeat(2, 1fr)
   p
     margin: 0
   img

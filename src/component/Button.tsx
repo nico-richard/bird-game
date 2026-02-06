@@ -13,7 +13,7 @@ const Button: ParentComponent<ButtonProps> = (props) => {
       hidden={props.hidden}
       onClick={props.onClick}
       style={{ background: props.color }}
-      class={(props.classes ?? []).join(" ") + " button"}
+      class={[...(props.classes ?? []).join(" "), "button"].join(" ")}
     >
       {props.children}
     </div>

@@ -1,10 +1,9 @@
-import { BirdGetPayload } from "../../../generated/prisma/models/Bird";
-import { PhotoGetPayload } from "../../../generated/prisma/models/Photo";
+import { Prisma } from "@prisma/client";
 
-export type BirdWithOrdersAndPhotos = BirdGetPayload<{
+export type BirdWithOrdersAndPhotos = Prisma.BirdGetPayload<{
   include: { order: true; photos: true };
 }>;
 
-export type PhotoWithBird = PhotoGetPayload<{
+export type PhotoWithBird = Prisma.PhotoGetPayload<{
   include: { bird: true };
 }>;

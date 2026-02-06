@@ -1,29 +1,45 @@
 import { createSignal, For, Setter } from "solid-js";
-import { OrderModel } from "../../generated/prisma/models/Order";
 import { QuizConfig } from "~/routes/quiz";
 import "./OrderList.sass";
 import Button from "./Button";
+import { Order } from "@prisma/client";
 
 interface OrderListProps {
-  orders?: OrderModel[];
+  orders?: Order[];
   config: QuizConfig | null;
   setConfig: Setter<QuizConfig | null>;
 }
 
 const OrderList = (props: OrderListProps) => {
-  const [orders, setOrders] = createSignal<OrderModel[]>([]);
+  const [orders, setOrders] = createSignal<Order[]>([]);
   const [displayConf, setDisplayConf] = createSignal<boolean>(false);
   return (
     <div class="container">
       <div class="header">
-        <h3>Configuration</h3>
+        <div>
+          <h3>Configuration</h3>
+          <p>
+            (ordre{props.config && props.config!.orders.length > 0 ? "s" : ""} :{" "}
+            {props.config && props.config!.orders.length > 0
+              ? props.config && props.config!.orders.length
+              : 0}
+            )
+          </p>
+        </div>
         <Button onClick={() => setDisplayConf(!displayConf())}>
           {displayConf() ? "Cacher" : "Afficher"}
         </Button>
-        <Button onClick={() => props.setConfig({ orders: orders() ?? [] })}>
+        <Button
+          hidden={!displayConf()}
+          onClick={() => {
+            props.setConfig({ orders: orders() ?? [] });
+            setDisplayConf(false);
+          }}
+        >
           Confirmer
         </Button>
         <Button
+          hidden={!displayConf()}
           onClick={() => {
             setOrders([]);
             props.setConfig({ orders: [] });

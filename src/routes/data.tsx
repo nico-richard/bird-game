@@ -2,19 +2,21 @@ import { createMemo, createResource, createSignal, For } from "solid-js";
 import "./data.sass";
 import { BirdWithOrdersAndPhotos, PhotoWithBird } from "~/lib/shared/types";
 import DataDetail from "~/component/DataDetail";
-import { BirdModel } from "~/prisma/generated/prisma/models/Bird";
+import { Bird } from "@prisma/client";
+import { getBaseUrl } from "~/lib/shared/url";
 
 export default function Data() {
+  const baseUrl = getBaseUrl();
   const getAllPhotos: () => Promise<PhotoWithBird[]> = async () => {
-    const res = await fetch("/api/photos");
+    const res = await fetch(`${baseUrl}/api/photos`);
     return res.json();
   };
   const getPhotoCount: () => Promise<number> = async () => {
-    const res = await fetch("/api/photo/count");
+    const res = await fetch(`${baseUrl}/api/photo/count`);
     return res.json();
   };
   const fetchAllBirds: () => Promise<BirdWithOrdersAndPhotos[]> = async () => {
-    const res = await fetch("/api/birds");
+    const res = await fetch(`${baseUrl}/api/birds`);
     return res.json();
   };
 
@@ -28,7 +30,7 @@ export default function Data() {
 
   const birdCount = createMemo(() => allBirds()?.length ?? 0);
   const birdsGroupedByFamily = createMemo(() =>
-    (allBirds() ?? []).reduce<Record<string, BirdModel[]>>((families, bird) => {
+    (allBirds() ?? []).reduce<Record<string, Bird[]>>((families, bird) => {
       if (bird.order) {
         (families[bird.order.name] ??= []).push(bird);
       }
@@ -49,11 +51,11 @@ export default function Data() {
       </ul>
       <hr />
       <h2 id="birds">Oiseaux ({birdCount()})</h2>
-      <div class="data">
+      <div class="bird-list">
         {Object.entries(birdsGroupedByFamily())
           .sort((a, b) => a[1].length - b[1].length)
           .map(([order, birds]) => (
-            <div>
+            <div class="bird-item">
               <h3>{order}</h3>
               {birds.map((bird) => (
                 <div

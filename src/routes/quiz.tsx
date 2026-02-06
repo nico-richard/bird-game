@@ -3,24 +3,26 @@ import { PhotoWithBird } from "~/lib/shared/types";
 import "./quiz.sass";
 import Button from "~/component/Button";
 import ImageShow from "~/component/ImageShow";
-import { OrderModel } from "../../generated/prisma/models/Order";
 import OrderList from "~/component/OrderList";
+import { Order } from "@prisma/client";
+import { getBaseUrl } from "~/lib/shared/url";
 
 export interface QuizConfig {
-  orders: OrderModel[];
+  orders: Order[];
 }
 
 export default function Quiz() {
+  const baseUrl = getBaseUrl();
   const getRandomPhotoForOrders: (
-    orders: OrderModel[],
-  ) => Promise<PhotoWithBird> = async (orders: OrderModel[]) => {
+    orders: Order[],
+  ) => Promise<PhotoWithBird> = async (orders: Order[]) => {
     const orderIds = orders.map((order) => order.id).join(",");
-    const res = await fetch(`/api/photo/random?orders=${orderIds}`);
+    const res = await fetch(`${baseUrl}/api/photo/random?orders=${orderIds}`);
     return res.json();
   };
 
-  const getOrders: () => Promise<OrderModel[]> = async () => {
-    const res = await fetch("/api/orders");
+  const getOrders: () => Promise<Order[]> = async () => {
+    const res = await fetch(`${baseUrl}/api/orders`);
     return res.json();
   };
 
@@ -32,7 +34,7 @@ export default function Quiz() {
     if (!confirmDelete) return;
 
     try {
-      const res = await fetch(`/api/photo/${photo()?.id}`, {
+      const res = await fetch(`${baseUrl}/api/photo/${photo()?.id}`, {
         method: "DELETE",
       });
       if (!res.ok) throw new Error("Échec de la suppression");
@@ -53,12 +55,12 @@ export default function Quiz() {
     () => config()?.orders ?? null,
     getRandomPhotoForOrders,
   );
-  const [orders] = createResource<OrderModel[]>(getOrders);
+  const [orders] = createResource<Order[]>(getOrders);
   return (
     <>
       <OrderList orders={orders()} setConfig={setConfig} config={config()} />
       <hr />
-      {config()?.orders.length > 0 && (
+      {config() && config()!.orders.length > 0 && (
         <div class="quiz">
           <Button onClick={() => setCount(1)} color="grey">
             {count()} [Réinitialiser]

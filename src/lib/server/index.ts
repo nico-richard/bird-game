@@ -1,8 +1,7 @@
 //import { birds } from "~/lib/data/birds/birds.data";
 import { prisma } from "~/prisma/prisma";
 import { BirdWithOrdersAndPhotos, PhotoWithBird } from "~/lib/shared/types";
-import { PhotoModel } from "../../../generated/prisma/models/Photo";
-import { OrderModel } from "../../../generated/prisma/models/Order";
+import { Photo, Order } from "@prisma/client";
 
 export const getAllBirds: () => Promise<
   BirdWithOrdersAndPhotos[]
@@ -21,7 +20,7 @@ export const getPhotosForBird: (
   });
 };
 
-export const deletePhoto: (photoId: number) => Promise<PhotoModel> = async (
+export const deletePhoto: (photoId: number) => Promise<Photo> = async (
   photoId: number,
 ) => {
   "use server";
@@ -96,14 +95,14 @@ export const randomPhotoForOrders = async (
 export const getAllPhotos: () => Promise<PhotoWithBird[]> = async () => {
   "use server";
   return prisma.photo.findMany({
-    take: 100,
+    take: 20,
     include: {
       bird: true,
     },
   });
 };
 
-export const getAllOrders: () => Promise<OrderModel[]> = async () => {
+export const getAllOrders: () => Promise<Order[]> = async () => {
   "use server";
   return prisma.order.findMany();
 };
