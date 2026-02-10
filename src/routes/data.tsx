@@ -1,6 +1,6 @@
 import { createMemo, createResource, createSignal, For } from "solid-js";
 import "./data.sass";
-import { BirdWithOrdersAndPhotos, PhotoWithBird } from "~/lib/shared/types";
+import { BirdWithOrders, PhotoWithBird } from "~/lib/shared/types";
 import DataDetail from "~/component/DataDetail";
 import { Bird } from "@prisma/client";
 import { getBaseUrl } from "~/lib/shared/url";
@@ -12,10 +12,11 @@ export default function Data() {
     return res.json();
   };
   const getPhotoCount: () => Promise<number> = async () => {
+    console.log(baseUrl);
     const res = await fetch(`${baseUrl}/api/photo/count`);
     return res.json();
   };
-  const fetchAllBirds: () => Promise<BirdWithOrdersAndPhotos[]> = async () => {
+  const fetchAllBirds: () => Promise<BirdWithOrders[]> = async () => {
     const res = await fetch(`${baseUrl}/api/birds`);
     return res.json();
   };

@@ -14,6 +14,6 @@ export const DELETE = async ({ params }: APIEvent) => {
     return new Error("id is required");
   }
   const photo = await deletePhoto(+params.id);
-  console.log(`Deleted photo: ${JSON.stringify(photo)}`);
+  console.log(`Delete photo: ${JSON.stringify(photo)}`);
   return new Response(JSON.stringify(photo));
 };

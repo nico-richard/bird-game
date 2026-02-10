@@ -1,13 +1,11 @@
 //import { birds } from "~/lib/data/birds/birds.data";
 import { prisma } from "~/prisma/prisma";
-import { BirdWithOrdersAndPhotos, PhotoWithBird } from "~/lib/shared/types";
-import { Photo, Order } from "@prisma/client";
+import { BirdWithOrders, PhotoWithBird } from "~/lib/shared/types";
+import { Order, Photo, Tags } from "@prisma/client";
 
-export const getAllBirds: () => Promise<
-  BirdWithOrdersAndPhotos[]
-> = async () => {
+export const getAllBirds: () => Promise<BirdWithOrders[]> = async () => {
   "use server";
-  return prisma.bird.findMany({ include: { order: true, photos: true } });
+  return prisma.bird.findMany({ include: { order: true } });
 };
 
 export const getPhotosForBird: (
@@ -32,6 +30,16 @@ export const deletePhoto: (photoId: number) => Promise<Photo> = async (
 export const getBirds = async () => {
   "use server";
   return prisma.bird.findMany();
+};
+
+export const createTag = async (name: string) => {
+  "use server";
+  return prisma.tags.create({ data: { name: name } });
+};
+
+export const deleteTag = async (id: number) => {
+  "use server";
+  return prisma.tags.delete({ where: { id: id } });
 };
 
 export const countBirds = async () => {
@@ -100,6 +108,11 @@ export const getAllPhotos: () => Promise<PhotoWithBird[]> = async () => {
       bird: true,
     },
   });
+};
+
+export const getAllTags: () => Promise<Tags[]> = async () => {
+  "use server";
+  return prisma.tags.findMany();
 };
 
 export const getAllOrders: () => Promise<Order[]> = async () => {

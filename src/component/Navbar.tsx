@@ -9,6 +9,7 @@ const Navbar = () => {
       <div class="buttons">
         <Button onClick={() => navigate("/")}>Accueil</Button>
         <Button onClick={() => navigate("/data")}>Données</Button>
+        <Button onClick={() => navigate("/tags-list")}>Étiquettes</Button>
       </div>
       <hr />
     </div>

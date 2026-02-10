@@ -80,14 +80,11 @@ export default function Quiz() {
           </Button>
           <ImageShow photo={photo()} />
           {
-            <h3
-              class="bird-name"
-              style={{ filter: show() ? "none" : "blur(20px)" }}
-            >
+            <h3 class="bird-name" style={{ opacity: show() ? "1" : "0" }}>
               {photo()?.bird.name}
             </h3>
           }
-          <Button hidden={true} onClick={deletePhoto} color="darkred">
+          <Button onClick={deletePhoto} color="darkred">
             Supprimer
           </Button>
         </div>
