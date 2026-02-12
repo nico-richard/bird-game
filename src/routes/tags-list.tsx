@@ -36,7 +36,7 @@ export default function TagsList() {
       <div class="add-tag">
         <Input
           type="text"
-          onInput={(name) => setNewTagName(name)}
+          onInput={(name) => setNewTagName(name.toLowerCase())}
           value={newTagName()}
         />
         <Button onClick={() => createNewTag()}>Ajouter</Button>

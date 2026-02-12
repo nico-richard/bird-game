@@ -1,81 +1,102 @@
-//import { birds } from "~/lib/data/birds/birds.data";
-import { prisma } from "~/prisma/prisma";
-import { BirdWithOrders, PhotoWithBird } from "~/lib/shared/types";
-import { Order, Photo, Tags } from "@prisma/client";
+import {
+  BirdWithOrders,
+  PhotoWithBird,
+} from '~/lib/shared/types'
+import { Order, Photo, Tag } from '@prisma/client'
+import { prisma } from '~/prisma/prisma'
 
-export const getAllBirds: () => Promise<BirdWithOrders[]> = async () => {
-  "use server";
-  return prisma.bird.findMany({ include: { order: true } });
-};
+export const getAllBirds: () => Promise<
+  BirdWithOrders[]
+> = async () => {
+  'use server'
+  return prisma.bird.findMany({ include: { order: true } })
+}
 
 export const getPhotosForBird: (
-  birdId: number,
+  birdId: number
 ) => Promise<PhotoWithBird[]> = async (birdId: number) => {
-  "use server";
+  'use server'
   return prisma.photo.findMany({
     where: { birdId: birdId },
     include: { bird: true },
-  });
-};
+  })
+}
 
-export const deletePhoto: (photoId: number) => Promise<Photo> = async (
-  photoId: number,
-) => {
-  "use server";
+export const getTagsForBird: (
+  birdId: number
+) => Promise<Tag[]> = async (birdId: number) => {
+  'use server'
+  return prisma.tag.findMany({
+    where: { birds: { some: { id: birdId } } },
+  })
+}
+
+export const deletePhoto: (
+  photoId: number
+) => Promise<Photo> = async (photoId: number) => {
+  'use server'
   return prisma.photo.delete({
     where: { id: photoId },
-  });
-};
+  })
+}
 
 export const getBirds = async () => {
-  "use server";
-  return prisma.bird.findMany();
-};
+  'use server'
+  return prisma.bird.findMany()
+}
 
 export const createTag = async (name: string) => {
-  "use server";
-  return prisma.tags.create({ data: { name: name } });
-};
+  'use server'
+  return prisma.tag.create({ data: { name: name } })
+}
 
 export const deleteTag = async (id: number) => {
-  "use server";
-  return prisma.tags.delete({ where: { id: id } });
-};
+  'use server'
+  return prisma.tag.delete({ where: { id: id } })
+}
 
 export const countBirds = async () => {
-  "use server";
-  return prisma.bird.count();
-};
+  'use server'
+  return prisma.bird.count()
+}
 
-export const countPhotos: () => Promise<number> = async () => {
-  "use server";
-  return prisma.photo.count();
-};
+export const countPhotos: () => Promise<number> =
+  async () => {
+    'use server'
+    return prisma.photo.count()
+  }
 
-export const randomPhotoForOrders = async (
+export const randomPhotoForConfig = async (
   orderIds: number[],
+  tagIds: number[]
 ): Promise<PhotoWithBird | null> => {
-  "use server";
+  'use server'
   const ids = await prisma.photo.findMany({
-    where: orderIds.length
-      ? {
-          bird: {
-            orderId: { in: orderIds },
+    where: {
+      bird: {
+        ...(orderIds.length && {
+          orderId: { in: orderIds },
+        }),
+        ...(tagIds.length && {
+          tags: {
+            some: { id: { in: tagIds } },
           },
-        }
-      : undefined,
+        }),
+      },
+    },
     select: { id: true },
-  });
+  })
 
-  if (!ids.length) return null;
+  if (!ids.length) return null
 
-  const randomId = ids[Math.floor(Math.random() * ids.length)].id;
+  const randomId =
+    ids[Math.floor(Math.random() * ids.length)].id
 
   return prisma.photo.findUnique({
     where: { id: randomId },
     include: { bird: true },
-  });
-};
+  })
+}
 
 // export const fillAllBirdsWithData = async () => {
 //   "use server";
@@ -100,25 +121,31 @@ export const randomPhotoForOrders = async (
 //   return "done";
 // };
 
-export const getAllPhotos: () => Promise<PhotoWithBird[]> = async () => {
-  "use server";
+export const getAllPhotos: () => Promise<
+  PhotoWithBird[]
+> = async () => {
+  'use server'
   return prisma.photo.findMany({
     take: 20,
     include: {
       bird: true,
     },
-  });
-};
+  })
+}
 
-export const getAllTags: () => Promise<Tags[]> = async () => {
-  "use server";
-  return prisma.tags.findMany();
-};
+export const getAllTags: () => Promise<
+  Tag[]
+> = async () => {
+  'use server'
+  return prisma.tag.findMany()
+}
 
-export const getAllOrders: () => Promise<Order[]> = async () => {
-  "use server";
-  return prisma.order.findMany();
-};
+export const getAllOrders: () => Promise<
+  Order[]
+> = async () => {
+  'use server'
+  return prisma.order.findMany()
+}
 
 // export const addAllBirds = async () => {
 //   "use server";

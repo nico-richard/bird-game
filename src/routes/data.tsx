@@ -1,43 +1,58 @@
-import { createMemo, createResource, createSignal, For } from "solid-js";
-import "./data.sass";
-import { BirdWithOrders, PhotoWithBird } from "~/lib/shared/types";
-import DataDetail from "~/component/DataDetail";
-import { Bird } from "@prisma/client";
-import { getBaseUrl } from "~/lib/shared/url";
+import {
+  createMemo,
+  createResource,
+  createSignal,
+  For,
+} from 'solid-js'
+import './data.sass'
+import {
+  BirdWithOrders,
+  PhotoWithBird,
+} from '~/lib/shared/types'
+import DataDetail from '~/component/DataDetail'
+import { Bird } from '@prisma/client'
+import { getBaseUrl } from '~/lib/shared/url'
 
 export default function Data() {
-  const baseUrl = getBaseUrl();
-  const getAllPhotos: () => Promise<PhotoWithBird[]> = async () => {
-    const res = await fetch(`${baseUrl}/api/photos`);
-    return res.json();
-  };
+  const baseUrl = getBaseUrl()
+  const getAllPhotos: () => Promise<
+    PhotoWithBird[]
+  > = async () => {
+    const res = await fetch(`${baseUrl}/api/photos`)
+    return res.json()
+  }
   const getPhotoCount: () => Promise<number> = async () => {
-    console.log(baseUrl);
-    const res = await fetch(`${baseUrl}/api/photo/count`);
-    return res.json();
-  };
-  const fetchAllBirds: () => Promise<BirdWithOrders[]> = async () => {
-    const res = await fetch(`${baseUrl}/api/birds`);
-    return res.json();
-  };
+    const res = await fetch(`${baseUrl}/api/photo/count`)
+    return res.json()
+  }
+  const fetchAllBirds: () => Promise<
+    BirdWithOrders[]
+  > = async () => {
+    const res = await fetch(`${baseUrl}/api/birds`)
+    return res.json()
+  }
 
-  const [selectedTaxonId, setSelectedTaxonId] = createSignal<number | null>(
-    null,
-  );
+  const [selectedTaxonId, setSelectedTaxonId] =
+    createSignal<number | null>(null)
 
-  const [photos] = createResource(getAllPhotos);
-  const [photoCount] = createResource(getPhotoCount);
-  const [allBirds] = createResource(fetchAllBirds);
+  const [photos] = createResource(getAllPhotos)
+  const [photoCount] = createResource(getPhotoCount)
+  const [allBirds] = createResource(fetchAllBirds)
 
-  const birdCount = createMemo(() => allBirds()?.length ?? 0);
+  const birdCount = createMemo(
+    () => allBirds()?.length ?? 0
+  )
   const birdsGroupedByFamily = createMemo(() =>
-    (allBirds() ?? []).reduce<Record<string, Bird[]>>((families, bird) => {
-      if (bird.order) {
-        (families[bird.order.name] ??= []).push(bird);
-      }
-      return families;
-    }, {}),
-  );
+    (allBirds() ?? []).reduce<Record<string, Bird[]>>(
+      (families, bird) => {
+        if (bird.order) {
+          ;(families[bird.order.name] ??= []).push(bird)
+        }
+        return families
+      },
+      {}
+    )
+  )
 
   return (
     <div>
@@ -62,7 +77,7 @@ export default function Data() {
                 <div
                   class="data-to-click"
                   onClick={() => {
-                    setSelectedTaxonId(bird.id);
+                    setSelectedTaxonId(bird.id)
                   }}
                 >
                   {bird.name}
@@ -89,5 +104,5 @@ export default function Data() {
         </For>
       </div>
     </div>
-  );
+  )
 }
