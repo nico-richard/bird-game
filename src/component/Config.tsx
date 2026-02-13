@@ -125,6 +125,14 @@ const Config = (props: OrderListProps) => {
             >
               TOUS
             </div>
+            <div
+              class="selectable-item"
+              onClick={() => {
+                setOrders([])
+              }}
+            >
+              AUCUN
+            </div>
           </div>
           <hr />
           <div class="list">

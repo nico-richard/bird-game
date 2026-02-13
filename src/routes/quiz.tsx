@@ -78,7 +78,7 @@ export default function Quiz() {
   const [show, setShow] = createSignal<boolean>(false)
 
   const [photo, { refetch }] = createResource(
-    () => config(),
+    config,
     getRandomPhotoForConf
   )
   const [orders] = createResource<Order[]>(getOrders)
@@ -124,9 +124,9 @@ export default function Quiz() {
                 {photo()?.bird.name}
               </h3>
             }
-            <Button onClick={deletePhoto} color="darkred">
-              Supprimer
-            </Button>
+            {/*<Button onClick={deletePhoto} color="darkred">*/}
+            {/*  Supprimer*/}
+            {/*</Button>*/}
           </div>
         )}
     </>
