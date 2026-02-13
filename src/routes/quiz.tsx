@@ -110,7 +110,7 @@ export default function Quiz() {
                   refetch()
                   setShow(false)
                 }
-                setCount(count() + 1)
+                !show() && setCount(count() + 1)
               }}
             >
               {show() ? 'Suivant' : 'Afficher'}
